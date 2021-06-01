@@ -1,0 +1,354 @@
+html {
+	background-color: #f3f4f6;
+}
+
+body {
+	background-color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 0;
+	width: 1080px;
+}
+
+header {
+	margin-top: -8px;
+	background-color: #9bdcff;
+	width: 1080px;
+	height: 250px;
+	margin-bottom: 10px;
+}
+
+.my-photo {
+	background-image: url(../img/me.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 252px;
+}
+
+.hcontent {
+	width: 740px;
+	margin-top: -1px;
+	margin-left: 166px;
+	padding-left: 5px;
+	display: inline-block;
+	/*border: 1px solid gray;*/
+	border-bottom-color: #4f2e23;
+}
+
+h2 {
+	margin: 0 auto;
+	width: 480px;
+	vertical-align: top;
+	display: inline-block;
+}
+
+.logo-tntu {
+	padding-right: 8px;
+	width: 100px;
+	display: inline-block;
+}
+
+.logo-fis {
+	margin-top: 5px;
+	width: 130px;
+	padding-right: 10px;
+	vertical-align: top;
+	display: inline-block;
+}
+
+h3 {
+	width: 700px;
+	display: inline-block;
+}
+
+.logo-kn {
+	width: 150px;
+	height: auto;
+	display: inline-block;
+}
+
+nav {
+	background-color: #3366ff;
+	margin-left: 166px;
+	height: 26px;
+	width: 913px;
+	/*border: 1px solid gray;*/
+}
+
+ul {
+	text-align: center;
+	margin-top: 5px;
+}
+
+li {
+	vertical-align: center;
+	text-align: center;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+ul li {
+	display: inline;
+	text-transform: uppercase;
+	padding: 0 5px;
+	letter-spacing: 1px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	color: #080073;
+}
+
+.main {
+	/*display: flex;*/
+	margin-top: -10px;
+	width: 1075px;
+	height: 1200px;
+	/*border: 1px solid gray;*/
+	padding-left: 5px;
+}
+
+.mcontent {
+	width: 900px;
+	height: 900px;
+	display: inline-block;
+	float: left;
+}
+
+.mconf {
+	background-color: #d9d9d9;
+	width: 880px;
+	height: 100px;
+	padding: 5px;
+	/*border: 1px solid gray;*/
+}
+
+.mcf {
+	width: 680px;
+	height: 100px;
+	display: inline-block;
+	float: left;
+}
+
+.btndetails {
+	color: #003bac;
+	width: 200px;
+	height: 100px;
+	display: inline-block;
+	float: left;
+	text-align: center;
+	padding-top: 40px;
+}
+
+.mcg {
+	background-color: #fff5a5;
+	width: 880px;
+	height: 152px;
+	padding: 5px;
+	/*border: 1px solid gray;*/
+}
+
+.mct1 {
+	background-image: url(../img/hobi1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 270px;
+	height: 130px;
+	padding: 5px;
+	margin: 5px;
+	/*border: 1px solid gray;*/
+	display: inline-block;
+	float: left;
+}
+
+.mct2 {
+	background-image: url(../img/hobi2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 270px;
+	height: 130px;
+	padding: 5px;
+	margin: 5px;
+	/*border: 1px solid gray;*/
+	display: inline-block;
+	float: left;
+}
+
+.mct3 {
+	background-image: url(../img/hobi3.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 270px;
+	height: 130px;
+	padding: 5px;
+	margin: 5px;
+	/*border: 1px solid gray;*/
+	display: inline-block;
+	float: left;
+}
+
+.mcs {
+	width: 270px;
+	height: 110px;
+	display: inline-block;
+	float: left;
+}
+
+.btndetailss {
+	color: #7b3939;
+	width: 270px;
+	height: 50px;
+	display: inline-block;
+	float: left;
+	text-align: right;
+}
+
+aside {
+	margin-top: 10px;
+	width: 170px;
+	height: auto;
+	display: inline-block;
+	float: left;
+}
+
+.ad {
+	margin-top: 10px;
+	width: 170px;
+	height: 100%;
+}
+
+/*.ads {
+	padding: 85px;
+	width: 150px;
+	height: 100%;
+	display: inline-block;
+	float: left;
+}*/
+
+footer {
+	width: 1082px;
+	text-align: center;
+	padding: 30px 0 10px;
+	background-color: #7ebdb7;
+}
+
+footer p {
+	margin: 0;
+	font-size: 12px;
+	color: #505352;
+}
+
+.biophoto {
+	width: 253px;
+	height: 1132px;
+	/*border: 1px solid gray;*/
+	display: inline-block;
+	float: left;
+}
+
+.biotext {
+	width: 812px;
+	height: 1132px;
+	/*border: 1px solid gray;*/
+	display: inline-block;
+	float: left;
+}
+
+.biotextp {
+	padding: 5px;
+}
+
+.biophotoimg {
+	padding: 5px;
+	width: 244px;
+}
+
+.mgroupinfo {
+	padding: 5px;
+	width: 1075px;
+}
+
+.mgads {
+	width: 1070px;
+	height: 228px;
+}
+
+.mgadsi {
+	height: 220px;
+	margin-left: 85px;
+	margin-right: 85px;
+}
+
+.mhobbi {
+	width: 880px;
+	height: 1200px;
+	/*border: 1px solid gray;*/
+	display: inline-block;
+	float: left;
+}
+
+.hobbiad {
+	width: 191px;
+	height: 1200px;
+	display: inline-block;
+	float: left;
+}
+
+.hobbiads {
+	width: 185px;
+	padding: 5px;
+	margin-top: 50px;
+}
+
+.mhobbitext {
+	width: 280px;
+	height: 1128px;
+	padding: 5px;
+	margin-left: 1px;
+	/*border: 1px solid gray;*/
+	display: inline-block;
+	float: left;
+	text-align: center;
+}
+
+.hobbiimg1 {
+	width: 250px;
+	height: auto;
+}
+
+.hobbiimg2 {
+	width: 250px;
+	height: auto;
+}
+
+.hobbiimg3 {
+	width: 250px;
+	height: auto;
+}
+
+.mint {
+	width: 1070px;
+	height: 280px;
+	margin-top: 3px;
+	/*border: 1px solid gray;*/
+}
+
+.int {
+	width: 820px;
+	/*height: 280px;*/
+	padding-left: 5px;
+	display: inline-block;
+	float: left;
+}
+
+.inti {
+	width: auto;
+	height: 150px;
+	display: inline-block;
+	float: left;
+}
