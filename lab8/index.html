@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Lab 4</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+	<script type="text/javascript" src="js/app.js"></script>
+</head>
+
+<body oncontextmenu="showCustomMenu(true,event.clientX, event.clientY); return false;" onclick="showCustomMenu(false, event.clientX, event.clientY); return false;">
+	<header>
+		<div class="my-photo">
+			<div class="hcontent">
+				<h2>Тернопільський національний технічний університет ім. Івана Пулюя <br /> Факультет ФІС <br />
+					Кафедра комп’ютерних наук </h2><img class="logo-tntu" src="img/newest_logo.png" alt="tntu logo">
+					<img class="logo-fis" src="img/logo_FIS.png" alt="fis logo">
+				<h3>Персональна сторінка <br /> Семенюк Володимир Олександрович <br /> Група СН-31 </h3>
+			</div>
+			<img class="logo-kn" src="img/logo_CS.png" alt="kn logo">
+			<nav>
+				<ul>
+					<li><a href="index.html">Головна</a></li>
+					<li><a href="bio.html">Біографія</a></li>
+					<li><a href="my_group.html">Моя група</a></li>
+					<li><a href="hobbi.html">Хоббі</a></li>
+					<li><a href="interests.html">Цікаве</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<div class="main">
+		<div class="mcontent">
+			<h4>Головна сторінка</h4>
+			<div class="mconf">
+				<div class="mcf">
+					<p><b>Біографія</b>
+					<p>
+					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit...</p>
+				</div>
+				<a href="bio.html" class="btndetails">Детальніше>>>></a>
+			</div><br /><br />
+			<div class="mconf">
+				<div class="mcf">
+					<p><b>Група</b>
+					<p>
+					<p>Ut nostrum, temporibus quas possimus ariatur alias aut quia provident...</p>
+				</div>
+				<a href="my_group.html" class="btndetails">Детальніше>>>></a>
+			</div><br /><br />
+			<div class="mcg">
+				<div class="mct1">
+					<div class="mcs">
+						<p><b>Хоббі 1</b>
+						<p>
+						<p>Футбол</p>
+					</div>
+					<a href="hobbi.html" class="btndetailss">Детальніше>>>></a>
+				</div>
+				<div class="mct2">
+					<div class="mcs">
+						<p><b>Хоббі 2</b>
+						<p>
+						<p>Волейбол</p>
+					</div>
+					<a href="hobbi.html" class="btndetailss">Детальніше>>>></a>
+				</div>
+				<div class="mct3">
+					<div class="mcs">
+						<p><b>Хоббі 3</b>
+						<p>
+						<p>Комп'ютерні ігри</p>
+					</div>
+					<a href="hobbi.html" class="btndetailss">Детальніше>>>></a>
+				</div>
+			</div><br /><br />
+			<div class="mconf">
+				<div class="mcf">
+					<p><b>Цікаве 1</b>
+					<p>
+					<p>Метроном, що задає ритм хитанням, був винайдений спеціально для глухого Бетховена.</p>
+				</div>
+				<a href="interests.html" class="btndetails">Детальніше>>>></a>
+			</div><br /><br />
+			<div class="mconf">
+				<div class="mcf">
+					<p><b>Цікаве 2</b>
+					<p>
+					<p>Леонардо да Вінчі винайшов ножиці.</p>
+				</div>
+				<a href="interests.html" class="btndetails">Детальніше>>>></a>
+			</div><br /><br />
+			<div class="mconf">
+				<div class="mcf">
+					<p><b>Цікаве 3</b>
+					<p>
+					<p>Бронежилети, пожежні сходи, склоочисники, і лазерні принтери були винайдені жінками.</p>
+				</div>
+				<a href="interests.html" class="btndetails">Детальніше>>>></a>
+			</div><br /><br />
+		</div>
+		<aside>
+			<a href="#" onmouseover="change_img('ad1', true)" onmouseout="change_img('ad1')">
+				<img class="ad" src="img/ad1.jpg" alt="Ad" id="ad1">
+			</a>
+			<a href="#" onmouseover="change_img('ad2', true)" onmouseout="change_img('ad2')">
+				<img class="ad" src="img/ad1.jpg" alt="Ad" id="ad2">
+			</a>
+			<a href="#" onmouseover="change_img('ad3', true)" onmouseout="change_img('ad3')">
+				<img class="ad" src="img/ad1.jpg" alt="Ad" id="ad3">
+			</a>
+		</aside>
+
+		<div id="custommenu" style="width: 250px; height; 80px;visibility: hidden;">
+			<div style="background-Color: silver; color: navy; font-Size: 10pt;" onclick="doAction('copy');">Скопіювати вміст документа</div>
+			<div style="background-Color: silver; color: navy; font-Size: 10pt;" onclick="doAction('close');">Закрити вікно</div>
+			<div style="background-Color: silver; color: navy; font-Size: 10pt;" onclick="doAction('fontIncrease');">Збільшити шрифт</div>
+			<div style="background-Color: silver; color: navy; font-Size: 10pt;" onclick="doAction('changeBkg');">Змінити фон</div>
+			<div style="background-Color: silver; color: navy; font-Size: 10pt;" onclick="doAction('change_fsize');">Зменшити шрифт</div>
+		</div>
+
+	</div>
+
+	<footer>
+		<p>© Семенюк Володимир Олександрович СН-31</p>
+		<p>© Контакти: +38068ХХХХХ00</p>
+	</footer>
+
+</body>
+
+</html>
