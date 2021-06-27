@@ -1,0 +1,190 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+header{
+	position: fixed;
+	top: 0;
+	width: 100%;
+    background-color: #007765;
+    margin: auto;
+}
+.head_container{
+	max-width: 1219px;
+    padding: 0 55px;
+	margin: auto;
+}
+.logo{
+    float: left;
+	padding: 20px 0;
+}
+.menu{
+	text-align: right;
+	float: right;
+	color: white;
+	font-size: 24px;
+	padding: 28px 0;
+}
+.clear{
+    clear: both;
+}
+.menu a{
+	color: white;
+}
+.main{
+	margin-top: 84px;
+}
+p{
+	font-size: 24px;
+}
+.jumbotron{
+	background-image: url('../img/piperNet.png');
+	background-position: center center;
+	background-size: cover;
+	color: white;
+	font-size: 72px;
+	font-weight: 500;
+	text-align: center;
+	padding: 160px 0;
+}
+.the_problem{
+	background-color: #eeeeee;
+}
+.the_problem_content{
+	max-width: 1219px;
+    padding: 0 55px 88px;
+	margin: auto;
+}
+.the_problem_content p{
+	font-size: 32px;
+	line-height: 37px;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+h2{
+	font-size: 64px;
+	font-weight: 500;
+	color: #007765;
+	text-align: center;
+	margin: 0;
+	padding: 48px 0 16px;
+}
+.hero{
+	background-image: url('../img/hero.png');
+	background-position: center center;
+	background-size: cover;
+}
+.hero .container{
+	box-sizing: border-box;
+	max-width: 1219px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 55px;
+	padding-right: 55px;
+	font-style: italic;
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 56px;
+	text-align: center;
+	color: white;
+	padding: 128px 0;
+}
+.ppc .container{
+	max-width: 1219px;
+	padding: 0 55px 88px;
+	margin: auto;
+	font-size: 32px;
+	line-height: 37px;
+}
+.ppc .container p{
+	font-size: 32px;
+	line-height: 37px;
+}
+.ppc_logo{
+	float: left;
+}
+.pied_pipers{
+	float: right;
+	padding-right: 48px;
+}
+.the_team{
+	background-color: #eeeeee;
+}
+.the_team .container{
+	max-width: 1219px;
+	padding: 0 55px 54px;
+	margin: auto;
+	width: 100%;
+}
+.the_team .container h2{
+	padding: 58px 0 32px;
+}
+figure.card{
+	display: inline-block;
+	text-align: center;
+	width: 350px;
+	height: 283px;
+	padding: 24px 0;
+	margin-bottom: 30px;
+}
+figure.space{
+	margin-right: 25px;
+}
+figure.card img{
+	padding-bottom: 12px;
+	width: 168px;
+	height: 168px;
+}
+figcaption.info .name{
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	color: #007765;
+	padding-top: 12px;
+}
+figcaption.info .position{
+	font-style: italic;
+	font-size: 18px;
+	line-height: 21px;
+}
+footer .container{
+	text-align: center;
+	background-color: #333333;
+	font-size: 18px;
+	line-height: 21px;
+	color: white;
+	padding: 50px 0 62px;
+}
