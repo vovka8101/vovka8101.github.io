@@ -52,7 +52,7 @@ header{
 	top: -84px;
 }*/
 .head_container{
-	width: 1219px;
+	max-width: 1219px;
 	padding: 0 55px;
 	margin: auto;
 }
